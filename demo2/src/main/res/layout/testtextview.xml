@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="带边框的文本"
+        android:textSize="24sp"
+        android:background="@drawable/bg_border"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="圆角边框、渐变背景的文本"
+        android:textSize="24pt"
+        android:background="@drawable/bg_border2"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文字带阴影的按钮"
+        android:textSize="12sp"
+        android:shadowColor="#aa5"
+        android:shadowRadius="1"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/red"
+        android:text="普通按钮"
+        android:textSize="10sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:textSize="11sp"
+        android:text="带文字的图片按钮"
+        />
+</LinearLayout>
