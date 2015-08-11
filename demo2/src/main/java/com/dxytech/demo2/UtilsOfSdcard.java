@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 存储在手机的SDCard
+ * 存储在手机的SDCard 233333
  * Created by Administrator on 2015/7/13.
  */
 public class UtilsOfSdcard {
